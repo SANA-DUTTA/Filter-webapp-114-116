@@ -1,0 +1,16 @@
+h3{
+    font-size: 30px;
+
+}
+.btn-success:hover{
+    background-color: rgb(225, 255, 0);
+}
+canvas{
+    animation-name: munmun;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes munmun{
+    from{box-shadow: 1px 1px 40px rgb(0, 208, 255);}
+    to {box-shadow: 1px 1px 40px rgb(243, 66, 231);}
+}
